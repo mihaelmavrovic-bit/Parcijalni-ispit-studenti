@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for laravel-parcijalni-ispit-mm2 on 2026-02-09T23:47:14+01:00
+# fly.toml app configuration file generated for laravel-parcijalni-ispit-mm3 on 2026-02-09T23:58:41+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'laravel-parcijalni-ispit-mm2'
+app = 'laravel-parcijalni-ispit-mm3'
 primary_region = 'fra'
 console_command = 'php /var/www/html/artisan tinker'
 
