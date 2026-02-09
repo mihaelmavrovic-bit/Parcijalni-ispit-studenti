@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>@yield('title', 'Moja aplikacija')</title>
+  <title>@yield('title', 'Studenti')</title>
 
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
@@ -11,7 +11,7 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="{{ url('/') }}">Moja Aplikacija</a>
+      <a class="logo" href="{{ url('/') }}">Studenti</a>
 
       <nav class="nav">
         <a href="{{ url('/') }}" class="nav-link">Početna</a>

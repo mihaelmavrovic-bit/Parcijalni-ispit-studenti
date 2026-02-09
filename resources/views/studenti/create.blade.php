@@ -25,16 +25,16 @@
   <label>Prezime</label>
   <input type="text" name="prezime" value="{{ old('prezime') }}">
 
-  <label>status</label>
+  <label>Status</label>
   <select name="status" required>
   <option value="redovni" {{ old('status') == 'redovni' ? 'selected' : '' }}>Redovni</option>
   <option value="izvanredni" {{ old('status') == 'izvanredni' ? 'selected' : '' }}>Izvanredni</option>
 </select>
 
-  <label>godiste</label>
+  <label>Godiste</label>
   <input type="number" name="godiste" value="{{ old('godiste') }}" min="1980" max="{{ date('Y') }}" required>
 
-  <label>prosjek</label>
+  <label>Prosjek</label>
   <input type="number" name="prosjek" value="{{ old('prosjek') }}" step="0.01" min="1" max="5" required>
 
   <button type="submit">Spremi</button>

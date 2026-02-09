@@ -18,8 +18,9 @@
     <th>Ime</th>
     <th>Prezime</th>
     <th>Status</th>
-    <th>godište</th>
-    <th>prosjek</th>
+    <th>Godište</th>
+    <th>Prosjek</th>
+    <th>Promjene</th>
   </tr>
 
   @foreach($studenti as $s)
