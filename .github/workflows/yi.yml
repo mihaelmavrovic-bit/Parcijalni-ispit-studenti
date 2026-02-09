@@ -1,4 +1,4 @@
-name: CI za studente
+name: CI za studiranje
 
 on:
   push:
